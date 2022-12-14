@@ -14,30 +14,47 @@ import pandas as pd
 from tqdm import tqdm
 
 
+# preupload alldata
+def preLoadAllProduct():
+  print('preLoadAllProduct')
+  global all_product_paginator
+  
+  product_list = []
+  products = Product.objects.all().order_by('-create_at')
+  for product in products:
+        if Photo.objects.filter(product_id = product.id).exists():
+          photo = Photo.objects.filter(product_id = product.id)[0]
+          # cover_url = 'http://'+ os.path.join(request.get_host(), photo.thumb.url)
+          cover_url = 'http://'+ settings.PUBLIC_IP + settings.PROJECT_DIR + photo.thumb.url
+
+          product_dict = model_to_dict(product)
+          product_dict['cover'] = cover_url
+          product_list.append(product_dict)
+        
+  all_product_paginator = Paginator(product_list, settings.N_PER_PAGE)
+  
+preLoadAllProduct()
+
+
 # Create your views here.
 def index(request):
-  
-  
+    
   return JsonResponse({'ref':0})
 
 
-
-
+  
 
 def getProducts(request):
   keyword = request.params['keyword'] if 'keyword' in request.params else ""
   page = int(request.params['page']) if 'page' in request.params else 0
-  N_per_page = int(request.params['N_per_page']) if 'N_per_page' in request.params else 12
-  # page = int(request.params['page'])
-  # N_per_page = int(request.params['N_per_page'])
   product_list = []
   
   
   # keyword 为空 全局查找
   if len(keyword) == 0:
-    products = Product.objects.all().order_by('-create_at')
-    
-    
+    # products = Product.objects.all().order_by('-create_at')
+    return JsonResponse({'ref':0, 'data':all_product_paginator.page(page).object_list, 'totalPage':all_product_paginator.num_pages})
+
   else:
 
     products_fitler_title = Product.objects.filter(title__contains=keyword)
@@ -56,19 +73,21 @@ def getProducts(request):
                 products_fitler_create_at
     products = products.distinct().order_by('-create_at')
   
-  for product in products:
-      if Photo.objects.filter(product_id = product.id).exists():
-        photo = Photo.objects.filter(product_id = product.id)[0]
-        # cover_url = 'http://'+ os.path.join(request.get_host(), photo.thumb.url)
-        cover_url = 'http://'+ settings.PUBLIC_IP + settings.PROJECT_DIR + photo.thumb.url
+    for product in products:
+        if Photo.objects.filter(product_id = product.id).exists():
+          photo = Photo.objects.filter(product_id = product.id)[0]
+          # cover_url = 'http://'+ os.path.join(request.get_host(), photo.thumb.url)
+          cover_url = 'http://'+ settings.PUBLIC_IP + settings.PROJECT_DIR + photo.thumb.url
 
-        product_dict = model_to_dict(product)
-        product_dict['cover'] = cover_url
-        product_list.append(product_dict)
-        
-  paginator = Paginator(product_list, N_per_page)
-  
-  return JsonResponse({'ref':0, 'data':paginator.page(page).object_list, 'totalPage':paginator.num_pages})
+          product_dict = model_to_dict(product)
+          product_dict['cover'] = cover_url
+          product_list.append(product_dict)
+    # 判断是否为空数据
+    if len(product_list)>0:   
+      paginator = Paginator(product_list, settings.N_PER_PAGE)
+      return JsonResponse({'ref':0, 'data':paginator.page(1).object_list, 'totalPage':paginator.num_pages})
+    else:
+      return JsonResponse({'ref':0, 'data':[], 'totalPage':1})
 
 
 def deleteProducts(request):
@@ -79,8 +98,10 @@ def deleteProducts(request):
     product = Product.objects.get(id = product_id)
     product.delete()
     
+    preLoadAllProduct()
     return JsonResponse({'ref':0, 'data':{}, 'msg':'product_id={product_id}删除成功'})
 
+  preLoadAllProduct()
   return JsonResponse({'ref':0, 'msg':'删除成功'})
 
 def getRatingRecords(request):
@@ -195,6 +216,8 @@ def uploadPhoto(request):
       )
       photo.save()
   
+  preLoadAllProduct()
+  
   return JsonResponse({'ref':0, 'data':model_to_dict(product), 'msg':'上传成功'})
 
 
@@ -205,6 +228,7 @@ def artReview(request):
   product_id = int(request.params['product_id']) if 'product_id' in request.params else -1
   images = []
   imgSrcList = []
+  imgCoverList = []
   ratingList = []
     
   if Product.objects.filter(id=product_id).exists():
@@ -222,11 +246,11 @@ def artReview(request):
       with Image.open(photo.path) as img:
         # imgSrcList.append('http://' + os.path.join(request.get_host(), photo.path.url))
         imgSrcList.append('http://'+ settings.PUBLIC_IP + settings.PROJECT_DIR + photo.path.url)
-
+        imgCoverList.append('http://'+ settings.PUBLIC_IP + settings.PROJECT_DIR + photo.thumb.url)
         images.append(img)
     
     
-    data = {'product': model_to_dict(product),  'imgSrcList':imgSrcList, 'ratingList':ratingList}
+    data = {'product': model_to_dict(product),  'imgCoverList':imgCoverList, 'imgSrcList':imgSrcList, 'ratingList':ratingList}
     return JsonResponse({'ref':0, 'data':data})
   
   return JsonResponse({'ref':-1, 'msg':'产品不存在'})
@@ -236,6 +260,7 @@ def artPrediction(request):
   product_id = int(request.params['product_id']) if 'product_id' in request.params else -1
   images = []
   imgSrcList = []
+  imgCoverList = []
     
   if Product.objects.filter(id=product_id).exists():
     product = Product.objects.get(id=product_id)
@@ -253,13 +278,14 @@ def artPrediction(request):
       with Image.open(photo.path) as img:
         # imgSrcList.append('http://' + os.path.join(request.get_host(), photo.path.url))
         imgSrcList.append('http://'+ settings.PUBLIC_IP + settings.PROJECT_DIR + photo.path.url)
+        imgCoverList.append('http://'+ settings.PUBLIC_IP + settings.PROJECT_DIR + photo.thumb.url)
 
         images.append(img.convert("RGB"))
         
     # PredictArtScoreArr = scoring(images, product.description)   
     PredictArtScoreArr = scoring([images[0]], product.description)
     
-    data = {'product': model_to_dict(product), 'PredictArtScoreArr':PredictArtScoreArr, 'imgSrcList':imgSrcList, 'avgRating':avgRating}
+    data = {'product': model_to_dict(product), 'PredictArtScoreArr':PredictArtScoreArr, 'imgCoverList':imgCoverList, 'imgSrcList':imgSrcList, 'avgRating':avgRating}
     return JsonResponse({'ref':0, 'data':data})
   
   return JsonResponse({'ref':-1, 'msg':'产品不存在'})

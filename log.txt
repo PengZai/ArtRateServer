@@ -1,127 +1,33 @@
 nohup: ignoring input
-[2022-12-09 22:26:10 +0800] [3195] [INFO] Starting gunicorn 20.1.0
-[2022-12-09 22:26:10 +0800] [3195] [INFO] Listening at: http://0.0.0.0:8001 (3195)
-[2022-12-09 22:26:10 +0800] [3195] [INFO] Using worker: gthread
-[2022-12-09 22:26:10 +0800] [3196] [INFO] Booting worker with pid: 3196
-[2022-12-09 22:26:10 +0800] [3197] [INFO] Booting worker with pid: 3197
-[2022-12-09 22:26:40 +0800] [3195] [CRITICAL] WORKER TIMEOUT (pid:3196)
-[2022-12-09 22:26:40 +0800] [3195] [CRITICAL] WORKER TIMEOUT (pid:3197)
-[2022-12-09 22:26:40 +0800] [3197] [INFO] Worker exiting (pid: 3197)
-[2022-12-09 22:26:40 +0800] [3196] [INFO] Worker exiting (pid: 3196)
-[2022-12-09 22:26:41 +0800] [3195] [WARNING] Worker with pid 3196 was terminated due to signal 9
-[2022-12-09 22:26:41 +0800] [3195] [WARNING] Worker with pid 3197 was terminated due to signal 9
-[2022-12-09 22:26:41 +0800] [3308] [INFO] Booting worker with pid: 3308
-[2022-12-09 22:26:41 +0800] [3309] [INFO] Booting worker with pid: 3309
-Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight']
+[2022-12-14 18:15:56 +0800] [2104] [INFO] Starting gunicorn 20.1.0
+[2022-12-14 18:15:56 +0800] [2104] [INFO] Listening at: http://10.206.0.13:8001 (2104)
+[2022-12-14 18:15:56 +0800] [2104] [INFO] Using worker: gthread
+[2022-12-14 18:15:56 +0800] [2110] [INFO] Booting worker with pid: 2110
+[2022-12-14 18:15:56 +0800] [2111] [INFO] Booting worker with pid: 2111
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight']
 - This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
 - This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight']
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight']
 - This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
 - This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-[2022-12-09 22:27:11 +0800] [3195] [CRITICAL] WORKER TIMEOUT (pid:3308)
-[2022-12-09 22:27:11 +0800] [3195] [CRITICAL] WORKER TIMEOUT (pid:3309)
-[2022-12-09 22:27:11 +0800] [3309] [INFO] Worker exiting (pid: 3309)
-[2022-12-09 22:27:11 +0800] [3308] [INFO] Worker exiting (pid: 3308)
-[2022-12-09 22:27:12 +0800] [3195] [WARNING] Worker with pid 3308 was terminated due to signal 9
-[2022-12-09 22:27:12 +0800] [3195] [WARNING] Worker with pid 3309 was terminated due to signal 9
-[2022-12-09 22:27:12 +0800] [3402] [INFO] Booting worker with pid: 3402
-[2022-12-09 22:27:12 +0800] [3403] [INFO] Booting worker with pid: 3403
-Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight']
-- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
-- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight']
-- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
-- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-Internal Server Error: /art/getProducts
-Traceback (most recent call last):
-  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/var/www/html/ArtRate/ArtRate_server/art/views.py", line 71, in getProducts
-    return JsonResponse({'ref':0, 'data':paginator.page(page).object_list, 'totalPage':paginator.num_pages})
-  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/paginator.py", line 75, in page
-    number = self.validate_number(number)
-  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/paginator.py", line 52, in validate_number
-    raise EmptyPage(_("That page number is less than 1"))
-django.core.paginator.EmptyPage: That page number is less than 1
-Not Found: /
-Not Found: /443
-Not Found: /
-Not Found: /
-Not Found: /443
-Not Found: /
-Not Found: /showLogin.cc
-Not Found: /
-Not Found: /nice ports,/Trinity.txt.bak
-Not Found: /
-Not Found: /
-Not Found: /
-Not Found: /
-Not Found: /
-Not Found: /favicon.ico
-[2022-12-13 10:46:50 +0800] [3195] [INFO] Handling signal: term
-[2022-12-13 10:46:50 +0800] [3403] [INFO] Worker exiting (pid: 3403)
 loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
-httpMIddleware {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
 no session_key, please login
-httpMIddleware {'keyword': '', 'page': '1', 'N_per_page': '12'}
-httpMIddleware {'product_id': '61'}
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {'format': ['json']}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+httpMIddleware-body {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+preLoadAllProduct
+httpMIddleware-post {'product_id': '60'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '60'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '51'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': 'yang', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-body {}
 no session_key, please login
-httpMIddleware {'keyword': '', 'page': '1', 'N_per_page': '12'}
-httpMIddleware {'product_id': '60'}
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {'next': ['/admin/']}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {'next': ['/admin/']}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {'next': ['/admin/']}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware {'csrfmiddlewaretoken': '4JBfzOOtYbUSfOSQAFBp06V43iMjsVnkv73RE4TFkFjG1C8lKL39fAM2YkRLEfoH', 'username': 'pengzai', 'password': '123', 'next': '/admin/'}
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-httpMIddleware <QueryDict: {}>
-[2022-12-13 10:47:20 +0800] [3195] [INFO] Shutting down: Master
+httpMIddleware-body {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-body {}

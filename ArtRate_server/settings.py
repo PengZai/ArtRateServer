@@ -23,6 +23,8 @@ MEDIA_URL = 'art/gallery/'
 MEDIA_ROOT = os.path.join(BASE_DIR, MEDIA_URL)
 IMAGE_DIR_NAME = 'hd'
 THUMBNAIL_DIR_NAME = 'thumbnail'
+N_PER_PAGE = 9 # 分页数
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -70,8 +72,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'middleware.myMiddleWare.httpMiddleware',
     'middleware.myMiddleWare.sessionMiddleware',
+    'middleware.myMiddleWare.httpMiddleware',
     
 ]
 

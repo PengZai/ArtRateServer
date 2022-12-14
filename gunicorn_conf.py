@@ -9,7 +9,7 @@ workers = 2
 # reference web
 # https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/74/
 # comment
-# gunicorn ArtRate_server.wsgi -w 2 -k gthread -b 0.0.0.0:8001
+# gunicorn ArtRate_server.wsgi -w 2 -k gthread 4 -b 0.0.0.0:8001 -t 16
 
 
 # command

@@ -11,22 +11,21 @@ class httpMiddleware(MiddlewareMixin):
         
         if request.method == 'GET':
             request.params = request.GET
-            print('httpMIddleware', request.params)
+            print('httpMIddleware-get', request.params)
 
         elif request.method in ['POST', 'PUT', 'DELETE']:
           
           try:
             request.params = json.loads(request.body.decode("UTF-8"))
-            print('httpMIddleware', request.params)
+            print('httpMIddleware-body', request.params)
           except Exception as e:
-            
-            try:
+            # try:
               # print('maybe form data?')
               request.params = request.POST.dict()
-              print('httpMIddleware', request.params)
+              print('httpMIddleware-post', request.params)
               
-            except Exception as e:
-              print(traceback.format_exc())
+            # except Exception as e:
+            #   print(traceback.format_exc())
             
 
         
@@ -45,18 +44,17 @@ class sessionMiddleware(MiddlewareMixin):
 
         
         if 'Authorization' in request.headers.keys():
-          try:
-            session_key = request.headers['Authorization']
+          # try:
+          session_key = request.headers['Authorization']
+          
+          if len(session_key) > 0:
+            request.session = SessionStore(session_key = session_key)
+          
+          else:
+            print('no session_key, please login')
             
-            if len(session_key) > 0:
-              
-              request.session = SessionStore(session_key = session_key)
-            
-            else:
-              print('no session_key, please login')
-            
-          except Exception as e:
-            print(traceback.format_exc())
+          # except Exception as e:
+          #   print(traceback.format_exc())
                   
         
         
