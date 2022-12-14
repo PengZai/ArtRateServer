@@ -1,0 +1,40 @@
+[2022-12-14 09:36:56 +0800] [991153] [INFO] Starting gunicorn 20.1.0
+[2022-12-14 09:36:56 +0800] [991153] [INFO] Listening at: http://0.0.0.0:8001 (991153)
+[2022-12-14 09:36:56 +0800] [991153] [INFO] Using worker: gthread
+[2022-12-14 09:36:56 +0800] [991154] [INFO] Booting worker with pid: 991154
+[2022-12-14 09:36:56 +0800] [991155] [INFO] Booting worker with pid: 991155
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[2022-12-14 10:42:38 +0800] [991153] [INFO] Handling signal: term
+[2022-12-14 10:42:38 +0800] [991155] [INFO] Worker exiting (pid: 991155)
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+httpMIddleware {'keyword': '', 'page': '1', 'N_per_page': '12'}
+httpMIddleware {'product_id': '61'}
+httpMIddleware {'keyword': '', 'page': '1', 'N_per_page': '12'}
+httpMIddleware {'product_id': '2'}
+httpMIddleware {'keyword': '', 'page': '1', 'N_per_page': '12'}
+httpMIddleware {'keyword': '', 'page': '1', 'N_per_page': '12'}
+httpMIddleware {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+no session_key, please login
+httpMIddleware {'keyword': '', 'page': '1', 'N_per_page': '12'}
+httpMIddleware {}
+httpMIddleware {'user': {'username': 'expert_test', 'password': 'test@123', 'email': '', 'checkPassword': ''}}
+httpMIddleware {'keyword': '', 'page': '1', 'N_per_page': '12'}
+[2022-12-14 10:42:38 +0800] [991154] [INFO] Worker exiting (pid: 991154)
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+httpMIddleware {'keyword': '', 'page': '5', 'N_per_page': '12'}
+httpMIddleware {'keyword': '', 'page': '1', 'N_per_page': '12'}
+httpMIddleware {'keyword': '', 'page': '5', 'N_per_page': '12'}
+httpMIddleware {'product_id': '6'}
+httpMIddleware {'keyword': '', 'page': '5', 'N_per_page': '12'}
+httpMIddleware {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+no session_key, please login
+httpMIddleware {'product_id': '60'}
+httpMIddleware {}
+httpMIddleware {'keyword': '', 'page': '1', 'N_per_page': '12'}
+httpMIddleware <QueryDict: {}>
+[2022-12-14 10:42:39 +0800] [991153] [INFO] Shutting down: Master
