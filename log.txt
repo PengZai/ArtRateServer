@@ -1,13 +1,13 @@
 nohup: ignoring input
-[2022-12-14 18:15:56 +0800] [2104] [INFO] Starting gunicorn 20.1.0
-[2022-12-14 18:15:56 +0800] [2104] [INFO] Listening at: http://10.206.0.13:8001 (2104)
-[2022-12-14 18:15:56 +0800] [2104] [INFO] Using worker: gthread
-[2022-12-14 18:15:56 +0800] [2110] [INFO] Booting worker with pid: 2110
-[2022-12-14 18:15:56 +0800] [2111] [INFO] Booting worker with pid: 2111
-Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight']
+[2024-05-08 15:31:24 +0800] [13176] [INFO] Starting gunicorn 20.1.0
+[2024-05-08 15:31:24 +0800] [13176] [INFO] Listening at: http://10.206.0.13:8001 (13176)
+[2024-05-08 15:31:24 +0800] [13176] [INFO] Using worker: gthread
+[2024-05-08 15:31:24 +0800] [13177] [INFO] Booting worker with pid: 13177
+[2024-05-08 15:31:24 +0800] [13178] [INFO] Booting worker with pid: 13178
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias']
 - This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
 - This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight']
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias']
 - This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
 - This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
 loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
@@ -17,17 +17,36 @@ no session_key, please login
 httpMIddleware-body {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
 httpMIddleware-post {'keyword': '', 'page': '1'}
 preLoadAllProduct
-httpMIddleware-post {'product_id': '60'}
-httpMIddleware-post {'keyword': '', 'page': '1'}
-httpMIddleware-post {'product_id': '60'}
-httpMIddleware-post {'keyword': '', 'page': '1'}
 httpMIddleware-post {'keyword': '', 'page': '2'}
-httpMIddleware-post {'product_id': '51'}
+httpMIddleware-post {'keyword': '胡', 'page': '2'}
+httpMIddleware-post {'keyword': '胡', 'page': '1'}
+httpMIddleware-post {'product_id': '1'}
 httpMIddleware-post {'keyword': '', 'page': '1'}
-httpMIddleware-post {'keyword': 'yang', 'page': '1'}
+httpMIddleware-post {'keyword': '胡', 'page': '1'}
+httpMIddleware-post {'product_id': '1'}
 httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '徐雅娟', 'page': '1'}
+httpMIddleware-post {'product_id': '5'}
 httpMIddleware-body {}
-no session_key, please login
-httpMIddleware-body {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
-httpMIddleware-post {'keyword': '', 'page': '1'}
-httpMIddleware-body {}
+[2024-05-08 15:36:00 +0800] [13176] [INFO] Handling signal: hup
+[2024-05-08 15:36:00 +0800] [13176] [INFO] Hang up: Master
+[2024-05-08 15:36:00 +0800] [14702] [INFO] Booting worker with pid: 14702
+[2024-05-08 15:36:00 +0800] [14703] [INFO] Booting worker with pid: 14703
+[2024-05-08 15:36:00 +0800] [13176] [WARNING] Worker with pid 13177 was terminated due to signal 1
+[2024-05-08 15:36:00 +0800] [13176] [WARNING] Worker with pid 13178 was terminated due to signal 1
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+httpMIddleware-get <QueryDict: {}>
+preLoadAllProduct
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico

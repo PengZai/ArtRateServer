@@ -1,0 +1,744 @@
+nohup: ignoring input
+[2023-04-03 10:23:30 +0800] [1633042] [INFO] Starting gunicorn 20.1.0
+[2023-04-03 10:23:30 +0800] [1633042] [INFO] Listening at: http://10.206.0.13:8001 (1633042)
+[2023-04-03 10:23:30 +0800] [1633042] [INFO] Using worker: gthread
+[2023-04-03 10:23:30 +0800] [1633043] [INFO] Booting worker with pid: 1633043
+[2023-04-03 10:23:30 +0800] [1633044] [INFO] Booting worker with pid: 1633044
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+preLoadAllProduct
+httpMIddleware-body {}
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /nice ports,/Trinity.txt.bak
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data baseclear session data base
+
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[2023-04-04 10:23:44 +0800] [1633042] [WARNING] Worker with pid 1633043 was terminated due to signal 9
+[2023-04-04 10:23:44 +0800] [1988215] [INFO] Booting worker with pid: 1988215
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProductpreLoadAllProduct
+
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+httpMIddleware-get <QueryDict: {}>
+preLoadAllProduct
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /manage/account/login
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /index.html
+httpMIddleware-get <QueryDict: {}>
+Not Found: /+CSCOE+/logon.html
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /english/
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /bLYU
+httpMIddleware-get <QueryDict: {}>
+Not Found: /LWFt
+httpMIddleware-get <QueryDict: {}>
+Not Found: /aab8
+httpMIddleware-get <QueryDict: {}>
+Not Found: /jquery-3.3.1.slim.min.js
+httpMIddleware-get <QueryDict: {}>
+Not Found: /aab9
+httpMIddleware-get <QueryDict: {}>
+Not Found: /jquery-3.3.2.slim.min.js
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /../../mnt/mtd/Config/Account1
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /+CSCOE+/logon.html
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /skin/default_1/images/logo.png
+httpMIddleware-get <QueryDict: {}>
+Not Found: /login.rsp
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /skin/default_1/images/logo.png
+httpMIddleware-get <QueryDict: {}>
+Not Found: /image/lgbg.jpg
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-post {}
+Not Found: /jeecg-boot/sys/login
+httpMIddleware-get <QueryDict: {}>
+Not Found: /actuator
+httpMIddleware-get <QueryDict: {}>
+Not Found: /json/version
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /api/v2/
+httpMIddleware-get <QueryDict: {}>
+Not Found: /ms/1.0/
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /robots.txt
+httpMIddleware-get <QueryDict: {'info': ['20230414141942']}>
+Not Found: /echo.php
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /../../mnt/mtd/Config/Account1
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /doc/xml/version.xml
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /sitemap.xml
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /skin/default_1/images/logo.png
+httpMIddleware-get <QueryDict: {}>
+Not Found: /skin/default_1/images/logo.png
+httpMIddleware-get <QueryDict: {}>
+Not Found: /image/lgbg.jpg
+httpMIddleware-get <QueryDict: {}>
+Not Found: /image/lgbg.jpg
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+clear session data base
+preLoadAllProduct
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+[2023-05-12 17:02:01 +0800] [1633042] [INFO] Handling signal: term
+[2023-05-12 17:02:31 +0800] [1633042] [INFO] Shutting down: Master

@@ -1,0 +1,1726 @@
+nohup: ignoring input
+[2023-06-16 17:38:12 +0800] [3184551] [INFO] Starting gunicorn 20.1.0
+[2023-06-16 17:38:12 +0800] [3184551] [INFO] Listening at: http://10.206.0.13:8001 (3184551)
+[2023-06-16 17:38:12 +0800] [3184551] [INFO] Using worker: gthread
+[2023-06-16 17:38:12 +0800] [3184553] [INFO] Booting worker with pid: 3184553
+[2023-06-16 17:38:12 +0800] [3184554] [INFO] Booting worker with pid: 3184554
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+preLoadAllProduct
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-body {}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {'next': ['/admin/login']}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-post {'csrfmiddlewaretoken': 'tIqKQQIwK6idqtZsz7fLE6pKSBYPtdAqZZbsMd44v8k34uNa2tQxDZfdy3yenSPa', 'username': 'pengzai', 'password': '123', 'next': '/admin/login'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /80
+httpMIddleware-get <QueryDict: {}>
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'duolayr', 'password': '1539011238yr', 'email': '1539011238@qq.com', 'checkPassword': '1539011238yr'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'duolayr', 'password': '1539011238yr', 'email': '1539011238@qq.com', 'checkPassword': '1539011238yr'}}
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+Not Found: /443
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /english/
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+Not Found: /443
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+clear session data base
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[2023-06-17 17:38:23 +0800] [3184551] [WARNING] Worker with pid 3184553 was terminated due to signal 9
+[2023-06-17 17:38:23 +0800] [3542105] [INFO] Booting worker with pid: 3542105
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProductpreLoadAllProduct
+
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+httpMIddleware-get <QueryDict: {}>
+preLoadAllProduct
+Not Found: /
+Not Found: /*
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /robots.txt
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Tanfox', 'password': 'Tan200104', 'email': '2223128377@qq.com', 'checkPassword': 'Tan200104'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Tanfox', 'password': 'Tan200104', 'email': '2223128377@qq.com', 'checkPassword': 'Tan200104'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'tiancenyan', 'password': 'tiancenyan123', 'email': '2532569867@qq.com', 'checkPassword': 'tiancenyan123'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'tiancenyan', 'password': 'tiancenyan123', 'email': '2532569867@qq.com', 'checkPassword': 'tiancenyan123'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'lotto', 'password': '19991229.', 'email': '2504436100@qq.com', 'checkPassword': '19991229.'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'lotto', 'password': '19991229.', 'email': '2504436100@qq.com', 'checkPassword': '19991229.'}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '罗菁', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '8'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '43'}
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+clear session data base
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Jun ', 'password': '1234567890.', 'email': '1581572899@qq.com', 'checkPassword': '1234567890.'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Jun ', 'password': '1234567890.', 'email': '1581572899@qq.com', 'checkPassword': '1234567890.'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Jun', 'password': '1234567890.', 'email': '1581572899@qq.com', 'checkPassword': '1234567890.'}}
+Internal Server Error: /art/signup
+Traceback (most recent call last):
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 244, in ensure_connection
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 225, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 244, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 633, in connect
+    self._request_authentication()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 705, in _read_packet
+    raise err.InternalError(
+pymysql.err.InternalError: Packet sequence number wrong - got 1 expected 2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/ArtRate/ArtRate_server/art/login.py", line 41, in signup
+    if not User.objects.filter(username=user_info['username']).exists():
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/query.py", line 892, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/sql/query.py", line 589, in has_results
+    return compiler.has_results()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1329, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1359, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 284, in cursor
+    return self._cursor()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 260, in _cursor
+    self.ensure_connection()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 243, in ensure_connection
+    with self.wrap_database_errors:
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 244, in ensure_connection
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 225, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 244, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 633, in connect
+    self._request_authentication()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 705, in _read_packet
+    raise err.InternalError(
+django.db.utils.InternalError: Packet sequence number wrong - got 1 expected 2
+Internal Server Error: /art/signup
+Traceback (most recent call last):
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 244, in ensure_connection
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 225, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 244, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 633, in connect
+    self._request_authentication()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 705, in _read_packet
+    raise err.InternalError(
+pymysql.err.InternalError: Packet sequence number wrong - got 1 expected 2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/ArtRate/ArtRate_server/art/login.py", line 41, in signup
+    if not User.objects.filter(username=user_info['username']).exists():
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/query.py", line 892, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/sql/query.py", line 589, in has_results
+    return compiler.has_results()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1329, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1359, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 284, in cursor
+    return self._cursor()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 260, in _cursor
+    self.ensure_connection()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 243, in ensure_connection
+    with self.wrap_database_errors:
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 244, in ensure_connection
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 225, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 244, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 633, in connect
+    self._request_authentication()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 705, in _read_packet
+    raise err.InternalError(
+django.db.utils.InternalError: Packet sequence number wrong - got 1 expected 2
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /nice ports,/Trinity.txt.bak
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /image/lgbg.jpg
+httpMIddleware-get <QueryDict: {}>
+Not Found: /skin/default_1/images/logo.png
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /image/lgbg.jpg
+httpMIddleware-get <QueryDict: {}>
+Not Found: /skin/default_1/images/logo.png
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /robots.txt
+httpMIddleware-get <QueryDict: {}>
+Not Found: /.well-known/security.txt
+httpMIddleware-get <QueryDict: {}>
+Not Found: /adminws
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /image/lgbg.jpg
+httpMIddleware-get <QueryDict: {}>
+Not Found: /skin/default_1/images/logo.png
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Daniel Guo', 'password': 'tt55854228', 'email': '1194621534@qq.com', 'checkPassword': 'tt55854228'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Daniel Guo', 'password': 'tt55854228', 'email': '1194621534@qq.com', 'checkPassword': 'tt55854228'}}
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'wanghuining', 'password': 'whn2000821', 'email': '380190679@qq.com', 'checkPassword': 'whn2000821'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Wang', 'password': 'whn2000821', 'email': '380190679@qq.com', 'checkPassword': 'whn2000821'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Wang', 'password': 'whn2000821', 'email': '380190679@qq.com', 'checkPassword': 'whn2000821'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'wanghuining', 'password': 'whn2000821', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+clear session data base
+[2023-06-19 17:45:05 +0800] [3184551] [CRITICAL] WORKER TIMEOUT (pid:3542105)
+[2023-06-19 17:45:28 +0800] [3542105] [INFO] Worker exiting (pid: 3542105)
+no session_key, please loginno session_key, please login
+
+httpMIddleware-bodyhttpMIddleware-body {'user': {'username': 'Tanfox', 'password': 'Tan200104', 'email': '', 'checkPassword': ''}}
+ {'user': {'username': 'Tanfox', 'password': 'Tan200104', 'email': '', 'checkPassword': ''}}
+[2023-06-19 17:47:19 +0800] [3184551] [WARNING] Worker with pid 3542105 was terminated due to signal 9
+[2023-06-19 17:47:20 +0800] [42807] [INFO] Booting worker with pid: 42807
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+
+preLoadAllProduct
+Traceback (most recent call last):
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 244, in ensure_connection
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 225, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 244, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 633, in connect
+    self._request_authentication()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 921, in _request_authentication
+    auth_packet = self._process_auth(plugin_name, auth_packet)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 1018, in _process_auth
+    pkt = self._read_packet()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 705, in _read_packet
+    raise err.InternalError(
+pymysql.err.InternalError: Packet sequence number wrong - got 3 expected 4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/html/ArtRate/ArtRate_server/manage.py", line 22, in <module>
+    main()
+  File "/var/www/html/ArtRate/ArtRate_server/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/management/base.py", line 414, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/management/base.py", line 455, in execute
+    self.check()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/management/base.py", line 487, in check
+    all_issues = checks.run_checks(
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/urls/resolvers.py", line 480, in check
+    for pattern in self.url_patterns:
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/urls/resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/urls/resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/ArtRate/ArtRate_server/ArtRate_server/urls.py", line 23, in <module>
+    path('art/', include('art.urls'))
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/urls/conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/var/www/html/ArtRate/ArtRate_server/art/urls.py", line 18, in <module>
+    from . import views
+  File "/var/www/html/ArtRate/ArtRate_server/art/views.py", line 36, in <module>
+    preLoadAllProduct()
+  File "/var/www/html/ArtRate/ArtRate_server/art/views.py", line 24, in preLoadAllProduct
+    for product in products:
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/query.py", line 320, in __iter__
+    self._fetch_all()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1359, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 284, in cursor
+    return self._cursor()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 260, in _cursor
+    self.ensure_connection()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 243, in ensure_connection
+    with self.wrap_database_errors:
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 244, in ensure_connection
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/base/base.py", line 225, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 244, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 633, in connect
+    self._request_authentication()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 921, in _request_authentication
+    auth_packet = self._process_auth(plugin_name, auth_packet)
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 1018, in _process_auth
+    pkt = self._read_packet()
+  File "/home/pengzai/anaconda3/envs/webserver/lib/python3.10/site-packages/pymysql/connections.py", line 705, in _read_packet
+    raise err.InternalError(
+django.db.utils.InternalError: Packet sequence number wrong - got 3 expected 4
+preLoadAllProduct
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Jun', 'password': '1234567890.', 'email': '1581572899@qq.com', 'checkPassword': '1234567890.'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Jun', 'password': '1234567890.', 'email': '1581572899@qq.com', 'checkPassword': '1234567890.'}}
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'songlory', 'password': '1qaz2wsx', 'email': 'songlory@126.com', 'checkPassword': '1qaz2wsx'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'songlory', 'password': '1qaz2wsx', 'email': 'songlory@126.com', 'checkPassword': '1qaz2wsx'}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '59'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '1'}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Xiaolizi', 'password': '7107London', 'email': '', 'checkPassword': ''}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Xiaolizi', 'password': '7107London', 'email': 'Yaqizhang77@gmail.com', 'checkPassword': '7107London'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Xiaolizi', 'password': '7107London', 'email': 'Yaqizhang77@gmail.com', 'checkPassword': '7107London'}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'ff123', 'password': 'ff123', 'email': '', 'checkPassword': ''}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'ff123', 'password': 'ff123', 'email': 'fu.fang@szu.edu.cn', 'checkPassword': 'ff123'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'ff123', 'password': 'ff123', 'email': 'fu.fang@szu.edu.cn', 'checkPassword': 'ff123'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'barryellen', 'password': 'hhdasddsd12345', 'email': '1849828917@qq.com', 'checkPassword': 'hhdasddsd12345'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'barry-ellen', 'password': 'hhdasddsd12345', 'email': '1849828917@qq.com', 'checkPassword': 'hhdasddsd12345'}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'barryellen', 'password': 'hhdasddsd12345', 'email': '1849828917@qq.com', 'checkPassword': 'hhdasddsd12345'}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'diElBqr8lbV7SSLNLhhjblLmQeDHZK25qyGZqDT1AniYa07XmkmwfOu6Nz8qd1L8', 'username': 'Andrew', 'first_name': '', 'last_name': '', 'email': '2939892426@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-16', 'last_login_1': '17:26:35', 'date_joined_0': '2023-06-16', 'date_joined_1': '17:26:28', 'initial-date_joined_0': '2023-06-16', 'initial-date_joined_1': '17:26:28', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'uhE1cYnn7iJDyJ3rICK5Zh6s2D5ycmqJHxGF1bPgmu6uQRpBjFPi3KPcZYAhqD9M', 'username': 'barryellen', 'first_name': '', 'last_name': '', 'email': '1849828917@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-19', 'last_login_1': '19:46:28', 'date_joined_0': '2023-06-19', 'date_joined_1': '19:46:13', 'initial-date_joined_0': '2023-06-19', 'initial-date_joined_1': '19:46:13', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'BtsOvBbXHYKbpLbnzZwbdHeXjmIISrJpOJuskODQWa72HTxxa2BohaXHgHdr6Iss', 'username': 'Daniel Guo', 'first_name': '', 'last_name': '', 'email': '1194621534@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-19', 'last_login_1': '10:26:16', 'date_joined_0': '2023-06-19', 'date_joined_1': '10:26:14', 'initial-date_joined_0': '2023-06-19', 'initial-date_joined_1': '10:26:14', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'Q2Ly5o7Nl0EazKqy0kWgyOf6NCeNHf6Q3iNcUBzGAc11RSMIBn1tChYQKXJwVwPT', 'username': 'DanielGuo', 'first_name': '', 'last_name': '', 'email': '1194621534@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-19', 'last_login_1': '10:26:16', 'date_joined_0': '2023-06-19', 'date_joined_1': '10:26:14', 'initial-date_joined_0': '2023-06-19', 'initial-date_joined_1': '10:26:14', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'ekmVzPzakp6s5XDQi24qj0z726G2MCwtrAozo213zBtjn5Z0T59DntiRZrbL0Tfw', 'username': 'duolayr', 'first_name': '', 'last_name': '', 'email': '1539011238@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-16', 'last_login_1': '20:11:32', 'date_joined_0': '2023-06-16', 'date_joined_1': '20:11:30', 'initial-date_joined_0': '2023-06-16', 'initial-date_joined_1': '20:11:30', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'h7sZv8lKIHCXbqv0d94hpEyCxYlJKPaMunuDklNDXTZOtyRaOc9ut7hmujQsY6TP', 'username': 'Jun', 'first_name': '', 'last_name': '', 'email': '1581572899@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-19', 'last_login_1': '18:37:24', 'date_joined_0': '2023-06-19', 'date_joined_1': '18:37:21', 'initial-date_joined_0': '2023-06-19', 'initial-date_joined_1': '18:37:21', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'T4bhdbp8kSQNcz6E8aoKRM5tbGBcLIIY6kdV2oR1z4dEuHsOJdtXVfOd816VZZr1', 'username': 'Jun ', 'first_name': '', 'last_name': '', 'email': '1581572899@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '', 'last_login_1': '', 'date_joined_0': '2023-06-18', 'date_joined_1': '18:39:41', 'initial-date_joined_0': '2023-06-18', 'initial-date_joined_1': '18:39:41', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'r15bwS7zDHp8hZ8yz2VZCGI9GiUVAedPEh7Pl5zsSTMZz7uIa50cG9rTDDpEOvWS', 'post': 'yes'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'LIjytpIfx1Wh017sSve3PYoo2K8KTVWeYYlciCa8Mdj8i9tCtyjgTr78Z5Dt7cFh', 'username': 'lotto', 'first_name': '', 'last_name': '', 'email': '2504436100@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-18', 'last_login_1': '10:03:45', 'date_joined_0': '2023-06-18', 'date_joined_1': '10:03:33', 'initial-date_joined_0': '2023-06-18', 'initial-date_joined_1': '10:03:33', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'MN7kge6jL1h2PfC0SBR0qlcRmnf0fI6TZ39Y5ryc0dET7nYatEWduOVBjIKJtZPW', 'username': 'Nannan', 'first_name': '', 'last_name': '', 'email': '1132967704@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-16', 'last_login_1': '17:29:13', 'date_joined_0': '2023-06-16', 'date_joined_1': '17:19:35', 'initial-date_joined_0': '2023-06-16', 'initial-date_joined_1': '17:19:35', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'VYjVhPcmMXTFVngAVgiTNTJ76fVpMVMh8elz62Ef19gwdvCKwjn6RmsR3Aq80cvk', 'username': 'ff123', 'first_name': '', 'last_name': '', 'email': 'fu.fang@szu.edu.cn', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-19', 'last_login_1': '19:42:40', 'date_joined_0': '2023-06-19', 'date_joined_1': '19:42:37', 'initial-date_joined_0': '2023-06-19', 'initial-date_joined_1': '19:42:37', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': '4rU3csqLztcURFs8Z38CYOMAJOOZIfpAhHWH1FSEOFzL9NOiA6dP2hvkG9jIWw8D', 'username': 'Smile', 'first_name': '', 'last_name': '', 'email': '1752455463@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-16', 'last_login_1': '17:31:04', 'date_joined_0': '2023-06-16', 'date_joined_1': '17:29:35', 'initial-date_joined_0': '2023-06-16', 'initial-date_joined_1': '17:29:35', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'olIN5xvOzBJ23Jvulgy2AR2qdviDGA0kBBKrUKXHON6TlRREWjDfEkLaaQNmURJn', 'username': 'songlory', 'first_name': '', 'last_name': '', 'email': 'songlory@126.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-19', 'last_login_1': '19:04:07', 'date_joined_0': '2023-06-19', 'date_joined_1': '19:04:04', 'initial-date_joined_0': '2023-06-19', 'initial-date_joined_1': '19:04:04', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'McfBFmAqnjSGTNz8v5czUiMKk5IE0YycZshfuz2jCvfxbVVi68hMYLvuhqdnefhf', 'username': 'Tanfox', 'first_name': '', 'last_name': '', 'email': '2223128377@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-19', 'last_login_1': '17:45:50', 'date_joined_0': '2023-06-18', 'date_joined_1': '08:31:57', 'initial-date_joined_0': '2023-06-18', 'initial-date_joined_1': '08:31:57', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'nvOUiroiM6HBxKry6IKpaAASvmSrOvkuALQy7EQb1i4sPSNIHLPCe3jCsHna2M3x', 'username': 'tiancenyan', 'first_name': '', 'last_name': '', 'email': '2532569867@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-18', 'last_login_1': '09:12:49', 'date_joined_0': '2023-06-18', 'date_joined_1': '09:12:45', 'initial-date_joined_0': '2023-06-18', 'initial-date_joined_1': '09:12:45', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'WWd4pi3xcQNECGlm6idugBgMfwgTgBpg9cfIevvqr2avUOHwHliHk4ZwcRLCuS8j', 'username': 'wanghuining', 'first_name': '', 'last_name': '', 'email': '380190679@qq.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-19', 'last_login_1': '12:07:44', 'date_joined_0': '2023-06-19', 'date_joined_1': '12:06:23', 'initial-date_joined_0': '2023-06-19', 'initial-date_joined_1': '12:06:23', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'nI1l0ZrvNOlweMUycAqO9sr4irjvZg3WAY3ZPcTo20InwUgINDv1dVaOfMOedxMZ', 'username': 'Xiaolizi', 'first_name': '', 'last_name': '', 'email': 'Yaqizhang77@gmail.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-19', 'last_login_1': '19:28:35', 'date_joined_0': '2023-06-19', 'date_joined_1': '19:28:33', 'initial-date_joined_0': '2023-06-19', 'initial-date_joined_1': '19:28:33', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'CyKZF5KTmbSmZjJTUs0N6Ojk4JtdXFUvPOMDuicMBnfdhr53vv50ah2414YWbWDy', 'username': 'ying', 'first_name': '', 'last_name': '', 'email': 'caoying59@gmail.com', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2022-10-28', 'last_login_1': '12:04:58', 'date_joined_0': '2022-10-28', 'date_joined_1': '12:04:50', 'initial-date_joined_0': '2022-10-28', 'initial-date_joined_1': '12:04:50', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'MMGCDhyvyG067n0MUihEH58TZE0Z7GIWZ2Igsu0oNSnXpvmWvlmRLyRDWZvIlXrZ', 'username': 'ZhengKaiqiao', 'first_name': '', 'last_name': '', 'email': '1303196483@qq.com”', 'is_active': 'on', 'is_staff': 'on', 'last_login_0': '2023-06-16', 'last_login_1': '17:28:03', 'date_joined_0': '2023-06-16', 'date_joined_1': '17:27:59', 'initial-date_joined_0': '2023-06-16', 'initial-date_joined_1': '17:27:59', '_save': 'Save'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-body {}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'kkkk', 'password': '17645549103.kld', 'email': '', 'checkPassword': ''}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'xiaolizi', 'password': '7107London', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-body {'product_id': '61', 'ArtScoreArr': [{'name': 'design', 'value': 75}, {'name': 'technology', 'value': 32}, {'name': 'market', 'value': 19}, {'name': 'investment', 'value': 14}, {'name': 'media', 'value': 51}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '60'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '59'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '58'}
+[2023-06-19 22:40:59 +0800] [3184551] [WARNING] Worker with pid 3184554 was terminated due to signal 9
+[2023-06-19 22:40:59 +0800] [114270] [INFO] Booting worker with pid: 114270
+httpMIddleware-post {'product_id': '58'}
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+preLoadAllProduct
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '39'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '55'}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'songlory', 'password': '1qaz2wsx', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '57'}
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /*
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'ff123', 'password': 'ff123', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'ff123', 'password': 'ff123', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '57'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '60'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+Not Found: /80
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[2023-06-20 17:47:35 +0800] [3184551] [WARNING] Worker with pid 42807 was terminated due to signal 9
+[2023-06-20 17:47:35 +0800] [396179] [INFO] Booting worker with pid: 396179
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+httpMIddleware-get <QueryDict: {}>
+preLoadAllProduct
+Not Found: /
+no session_key, please login
+httpMIddleware-body {'user': {'username': '2939892426@qq.com', 'password': 'Oujiaw2939892426', 'email': '', 'checkPassword': ''}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Andrew', 'password': 'Oujiaw2939892426', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-body {'product_id': '61', 'ArtScoreArr': [{'name': 'design', 'value': 70}, {'name': 'technology', 'value': 60}, {'name': 'market', 'value': 50}, {'name': 'investment', 'value': 70}, {'name': 'media', 'value': 70}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '60'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '60'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '60'}
+httpMIddleware-body {'product_id': '60', 'ArtScoreArr': [{'name': 'design', 'value': 50}, {'name': 'technology', 'value': 65}, {'name': 'market', 'value': 40}, {'name': 'investment', 'value': 50}, {'name': 'media', 'value': 50}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '59'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '59'}
+httpMIddleware-body {'product_id': '59', 'ArtScoreArr': [{'name': 'design', 'value': 78}, {'name': 'technology', 'value': 59}, {'name': 'market', 'value': 65}, {'name': 'investment', 'value': 56}, {'name': 'media', 'value': 71}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '58'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '58'}
+httpMIddleware-body {'product_id': '58', 'ArtScoreArr': [{'name': 'design', 'value': 67}, {'name': 'technology', 'value': 58}, {'name': 'market', 'value': 37}, {'name': 'investment', 'value': 53}, {'name': 'media', 'value': 41}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '57'}
+httpMIddleware-body {'product_id': '57', 'ArtScoreArr': [{'name': 'design', 'value': 90}, {'name': 'technology', 'value': 80}, {'name': 'market', 'value': 90}, {'name': 'investment', 'value': 80}, {'name': 'media', 'value': 80}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '56'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '56'}
+httpMIddleware-body {'product_id': '56', 'ArtScoreArr': [{'name': 'design', 'value': 80}, {'name': 'technology', 'value': 70}, {'name': 'market', 'value': 70}, {'name': 'investment', 'value': 64}, {'name': 'media', 'value': 51}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '55'}
+httpMIddleware-body {'product_id': '55', 'ArtScoreArr': [{'name': 'design', 'value': 63}, {'name': 'technology', 'value': 53}, {'name': 'market', 'value': 62}, {'name': 'investment', 'value': 54}, {'name': 'media', 'value': 51}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '54'}
+httpMIddleware-body {'product_id': '54', 'ArtScoreArr': [{'name': 'design', 'value': 53}, {'name': 'technology', 'value': 52}, {'name': 'market', 'value': 49}, {'name': 'investment', 'value': 51}, {'name': 'media', 'value': 41}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '53'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '53'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '53'}
+httpMIddleware-body {'product_id': '53', 'ArtScoreArr': [{'name': 'design', 'value': 55}, {'name': 'technology', 'value': 69}, {'name': 'market', 'value': 46}, {'name': 'investment', 'value': 42}, {'name': 'media', 'value': 44}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '52'}
+httpMIddleware-body {'product_id': '52', 'ArtScoreArr': [{'name': 'design', 'value': 69}, {'name': 'technology', 'value': 70}, {'name': 'market', 'value': 69}, {'name': 'investment', 'value': 72}, {'name': 'media', 'value': 53}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '51'}
+httpMIddleware-body {'product_id': '51', 'ArtScoreArr': [{'name': 'design', 'value': 50}, {'name': 'technology', 'value': 67}, {'name': 'market', 'value': 55}, {'name': 'investment', 'value': 49}, {'name': 'media', 'value': 45}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '50'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '50'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '50'}
+httpMIddleware-body {'product_id': '50', 'ArtScoreArr': [{'name': 'design', 'value': 73}, {'name': 'technology', 'value': 80}, {'name': 'market', 'value': 70}, {'name': 'investment', 'value': 67}, {'name': 'media', 'value': 64}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '49'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '49'}
+httpMIddleware-body {'product_id': '49', 'ArtScoreArr': [{'name': 'design', 'value': 56}, {'name': 'technology', 'value': 73}, {'name': 'market', 'value': 46}, {'name': 'investment', 'value': 44}, {'name': 'media', 'value': 45}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '48'}
+httpMIddleware-body {'product_id': '48', 'ArtScoreArr': [{'name': 'design', 'value': 79}, {'name': 'technology', 'value': 71}, {'name': 'market', 'value': 71}, {'name': 'investment', 'value': 63}, {'name': 'media', 'value': 62}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '46'}
+httpMIddleware-body {'product_id': '46', 'ArtScoreArr': [{'name': 'design', 'value': 86}, {'name': 'technology', 'value': 83}, {'name': 'market', 'value': 76}, {'name': 'investment', 'value': 67}, {'name': 'media', 'value': 69}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '45'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '45'}
+httpMIddleware-body {'product_id': '45', 'ArtScoreArr': [{'name': 'design', 'value': 77}, {'name': 'technology', 'value': 77}, {'name': 'market', 'value': 80}, {'name': 'investment', 'value': 77}, {'name': 'media', 'value': 59}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '44'}
+httpMIddleware-body {'product_id': '44', 'ArtScoreArr': [{'name': 'design', 'value': 74}, {'name': 'technology', 'value': 69}, {'name': 'market', 'value': 72}, {'name': 'investment', 'value': 65}, {'name': 'media', 'value': 71}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '43'}
+httpMIddleware-body {'product_id': '43', 'ArtScoreArr': [{'name': 'design', 'value': 80}, {'name': 'technology', 'value': 76}, {'name': 'market', 'value': 78}, {'name': 'investment', 'value': 74}, {'name': 'media', 'value': 74}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '41'}
+httpMIddleware-body {'product_id': '41', 'ArtScoreArr': [{'name': 'design', 'value': 75}, {'name': 'technology', 'value': 82}, {'name': 'market', 'value': 69}, {'name': 'investment', 'value': 65}, {'name': 'media', 'value': 59}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '40'}
+httpMIddleware-body {'product_id': '40', 'ArtScoreArr': [{'name': 'design', 'value': 82}, {'name': 'technology', 'value': 76}, {'name': 'market', 'value': 79}, {'name': 'investment', 'value': 74}, {'name': 'media', 'value': 77}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '39'}
+httpMIddleware-body {'product_id': '39', 'ArtScoreArr': [{'name': 'design', 'value': 80}, {'name': 'technology', 'value': 72}, {'name': 'market', 'value': 72}, {'name': 'investment', 'value': 59}, {'name': 'media', 'value': 52}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '38'}
+httpMIddleware-body {'product_id': '38', 'ArtScoreArr': [{'name': 'design', 'value': 85}, {'name': 'technology', 'value': 77}, {'name': 'market', 'value': 77}, {'name': 'investment', 'value': 73}, {'name': 'media', 'value': 66}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '37'}
+httpMIddleware-body {'product_id': '37', 'ArtScoreArr': [{'name': 'design', 'value': 74}, {'name': 'technology', 'value': 86}, {'name': 'market', 'value': 72}, {'name': 'investment', 'value': 73}, {'name': 'media', 'value': 64}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '36'}
+httpMIddleware-body {'product_id': '36', 'ArtScoreArr': [{'name': 'design', 'value': 72}, {'name': 'technology', 'value': 79}, {'name': 'market', 'value': 63}, {'name': 'investment', 'value': 68}, {'name': 'media', 'value': 63}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '35'}
+httpMIddleware-body {'product_id': '35', 'ArtScoreArr': [{'name': 'design', 'value': 62}, {'name': 'technology', 'value': 72}, {'name': 'market', 'value': 57}, {'name': 'investment', 'value': 61}, {'name': 'media', 'value': 46}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '33'}
+httpMIddleware-body {'product_id': '33', 'ArtScoreArr': [{'name': 'design', 'value': 62}, {'name': 'technology', 'value': 80}, {'name': 'market', 'value': 67}, {'name': 'investment', 'value': 51}, {'name': 'media', 'value': 51}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '32'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '32'}
+httpMIddleware-body {'product_id': '32', 'ArtScoreArr': [{'name': 'design', 'value': 67}, {'name': 'technology', 'value': 57}, {'name': 'market', 'value': 57}, {'name': 'investment', 'value': 63}, {'name': 'media', 'value': 48}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '31'}
+httpMIddleware-body {'product_id': '31', 'ArtScoreArr': [{'name': 'design', 'value': 74}, {'name': 'technology', 'value': 65}, {'name': 'market', 'value': 74}, {'name': 'investment', 'value': 68}, {'name': 'media', 'value': 54}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '30'}
+httpMIddleware-body {'product_id': '30', 'ArtScoreArr': [{'name': 'design', 'value': 86}, {'name': 'technology', 'value': 83}, {'name': 'market', 'value': 79}, {'name': 'investment', 'value': 77}, {'name': 'media', 'value': 59}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '29'}
+httpMIddleware-body {'product_id': '29', 'ArtScoreArr': [{'name': 'design', 'value': 77}, {'name': 'technology', 'value': 75}, {'name': 'market', 'value': 69}, {'name': 'investment', 'value': 62}, {'name': 'media', 'value': 64}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '28'}
+httpMIddleware-body {'product_id': '28', 'ArtScoreArr': [{'name': 'design', 'value': 60}, {'name': 'technology', 'value': 65}, {'name': 'market', 'value': 55}, {'name': 'investment', 'value': 56}, {'name': 'media', 'value': 54}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '27'}
+httpMIddleware-body {'product_id': '27', 'ArtScoreArr': [{'name': 'design', 'value': 85}, {'name': 'technology', 'value': 85}, {'name': 'market', 'value': 81}, {'name': 'investment', 'value': 82}, {'name': 'media', 'value': 80}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '26'}
+httpMIddleware-body {'product_id': '26', 'ArtScoreArr': [{'name': 'design', 'value': 82}, {'name': 'technology', 'value': 85}, {'name': 'market', 'value': 56}, {'name': 'investment', 'value': 61}, {'name': 'media', 'value': 58}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '25'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '25'}
+httpMIddleware-body {'product_id': '25', 'ArtScoreArr': [{'name': 'design', 'value': 79}, {'name': 'technology', 'value': 69}, {'name': 'market', 'value': 54}, {'name': 'investment', 'value': 53}, {'name': 'media', 'value': 55}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '24'}
+httpMIddleware-body {'product_id': '24', 'ArtScoreArr': [{'name': 'design', 'value': 75}, {'name': 'technology', 'value': 63}, {'name': 'market', 'value': 62}, {'name': 'investment', 'value': 60}, {'name': 'media', 'value': 62}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '23'}
+httpMIddleware-body {'product_id': '23', 'ArtScoreArr': [{'name': 'design', 'value': 74}, {'name': 'technology', 'value': 83}, {'name': 'market', 'value': 69}, {'name': 'investment', 'value': 66}, {'name': 'media', 'value': 60}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '22'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '22'}
+httpMIddleware-body {'product_id': '22', 'ArtScoreArr': [{'name': 'design', 'value': 64}, {'name': 'technology', 'value': 70}, {'name': 'market', 'value': 53}, {'name': 'investment', 'value': 49}, {'name': 'media', 'value': 46}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '21'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '21'}
+httpMIddleware-body {'product_id': '21', 'ArtScoreArr': [{'name': 'design', 'value': 67}, {'name': 'technology', 'value': 76}, {'name': 'market', 'value': 65}, {'name': 'investment', 'value': 64}, {'name': 'media', 'value': 56}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '20'}
+httpMIddleware-body {'product_id': '20', 'ArtScoreArr': [{'name': 'design', 'value': 85}, {'name': 'technology', 'value': 77}, {'name': 'market', 'value': 82}, {'name': 'investment', 'value': 64}, {'name': 'media', 'value': 55}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '19'}
+httpMIddleware-body {'product_id': '19', 'ArtScoreArr': [{'name': 'design', 'value': 73}, {'name': 'technology', 'value': 79}, {'name': 'market', 'value': 76}, {'name': 'investment', 'value': 70}, {'name': 'media', 'value': 62}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '18'}
+httpMIddleware-body {'product_id': '18', 'ArtScoreArr': [{'name': 'design', 'value': 84}, {'name': 'technology', 'value': 75}, {'name': 'market', 'value': 68}, {'name': 'investment', 'value': 67}, {'name': 'media', 'value': 56}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '17'}
+httpMIddleware-body {'product_id': '17', 'ArtScoreArr': [{'name': 'design', 'value': 87}, {'name': 'technology', 'value': 80}, {'name': 'market', 'value': 78}, {'name': 'investment', 'value': 81}, {'name': 'media', 'value': 74}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '16'}
+httpMIddleware-body {'product_id': '16', 'ArtScoreArr': [{'name': 'design', 'value': 84}, {'name': 'technology', 'value': 82}, {'name': 'market', 'value': 83}, {'name': 'investment', 'value': 76}, {'name': 'media', 'value': 70}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '15'}
+httpMIddleware-body {'product_id': '15', 'ArtScoreArr': [{'name': 'design', 'value': 81}, {'name': 'technology', 'value': 71}, {'name': 'market', 'value': 71}, {'name': 'investment', 'value': 68}, {'name': 'media', 'value': 71}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '14'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'product_id': '14'}
+httpMIddleware-body {'product_id': '14', 'ArtScoreArr': [{'name': 'design', 'value': 85}, {'name': 'technology', 'value': 79}, {'name': 'market', 'value': 84}, {'name': 'investment', 'value': 79}, {'name': 'media', 'value': 71}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '7'}
+httpMIddleware-body {'product_id': '7', 'ArtScoreArr': [{'name': 'design', 'value': 87}, {'name': 'technology', 'value': 81}, {'name': 'market', 'value': 81}, {'name': 'investment', 'value': 78}, {'name': 'media', 'value': 75}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '12'}
+httpMIddleware-body {'product_id': '12', 'ArtScoreArr': [{'name': 'design', 'value': 75}, {'name': 'technology', 'value': 77}, {'name': 'market', 'value': 74}, {'name': 'investment', 'value': 75}, {'name': 'media', 'value': 61}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '5'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '8'}
+httpMIddleware-body {'product_id': '8', 'ArtScoreArr': [{'name': 'design', 'value': 77}, {'name': 'technology', 'value': 77}, {'name': 'market', 'value': 64}, {'name': 'investment', 'value': 70}, {'name': 'media', 'value': 62}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '6'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '6'}
+httpMIddleware-body {'product_id': '6', 'ArtScoreArr': [{'name': 'design', 'value': 79}, {'name': 'technology', 'value': 69}, {'name': 'market', 'value': 74}, {'name': 'investment', 'value': 72}, {'name': 'media', 'value': 63}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '5'}
+httpMIddleware-body {'product_id': '5', 'ArtScoreArr': [{'name': 'design', 'value': 82}, {'name': 'technology', 'value': 75}, {'name': 'market', 'value': 79}, {'name': 'investment', 'value': 71}, {'name': 'media', 'value': 64}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '2'}
+httpMIddleware-body {'product_id': '2', 'ArtScoreArr': [{'name': 'design', 'value': 82}, {'name': 'technology', 'value': 74}, {'name': 'market', 'value': 70}, {'name': 'investment', 'value': 76}, {'name': 'media', 'value': 64}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '1'}
+httpMIddleware-body {'product_id': '1', 'ArtScoreArr': [{'name': 'design', 'value': 88}, {'name': 'technology', 'value': 82}, {'name': 'market', 'value': 76}, {'name': 'investment', 'value': 77}, {'name': 'media', 'value': 74}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-body {}
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[2023-06-20 22:45:09 +0800] [3184551] [WARNING] Worker with pid 114270 was terminated due to signal 9
+[2023-06-20 22:45:09 +0800] [468259] [INFO] Booting worker with pid: 468259
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+no session_key, please login
+httpMIddleware-body {'user': {'username': '2504436100@qq.com', 'password': '19991229.', 'email': '', 'checkPassword': ''}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': '2504436100@qq.com', 'password': '19991229.', 'email': '', 'checkPassword': ''}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': '2504436100@qq.com', 'password': '199912jh', 'email': '', 'checkPassword': ''}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'lotto', 'password': '199912jh', 'email': '', 'checkPassword': ''}}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'lotto', 'password': '19991229.', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '2'}
+httpMIddleware-post {'product_id': '60'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '60'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-body {}
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {'next': ['/admin/']}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-gethttpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}> <QueryDict: {}>
+
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-gethttpMIddleware-get <QueryDict: {}>
+ <QueryDict: {}>
+httpMIddleware-post {'csrfmiddlewaretoken': 'iTRhFC6bxxOgzvwBe4uWO2HstiL0XhgThAKYX5q9engTwCn07v5ahsBP5mYyHWGo', 'username': 'pengzai', 'password': '123', 'next': '/admin/'}
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /image/lgbg.jpg
+httpMIddleware-get <QueryDict: {}>
+Not Found: /skin/default_1/images/logo.png
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /login.rsp
+httpMIddleware-get <QueryDict: {}>
+Not Found: /image/lgbg.jpg
+httpMIddleware-get <QueryDict: {}>
+Not Found: /skin/default_1/images/logo.png
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /skin/default_1/images/logo.png
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /image/lgbg.jpg
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /*
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+httpMIddleware-get <QueryDict: {}>
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+httpMIddleware-get <QueryDict: {}>
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'pengzai', 'password': '123', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '60'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '6'}
+httpMIddleware-post {'product_id': '1'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '4'}
+httpMIddleware-post {'product_id': '30'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '3'}
+httpMIddleware-post {'product_id': '40'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-body {}
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /english/
+Not Found: /443
+Not Found: /443
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /443
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /adminws
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /*
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /nice ports,/Trinity.txt.bak
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /robots.txt
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /*
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /*
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /nice ports,/Trinity.txt.bak
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+Not Found: /443
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /nice ports,/Trinity.txt.bak
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /nice ports,/Trinity.txt.bak
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /*
+httpMIddleware-get <QueryDict: {}>
+Not Found: /../../mnt/mtd/Config/Account2
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+no session_key, please login
+httpMIddleware-body {'user': {'username': 'Smile', 'password': 'csm2631270', 'email': '', 'checkPassword': ''}}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+httpMIddleware-post {'product_id': '61'}
+httpMIddleware-body {'product_id': '61', 'ArtScoreArr': [{'name': 'design', 'value': 87}, {'name': 'technology', 'value': 57}, {'name': 'market', 'value': 54}, {'name': 'investment', 'value': 54}, {'name': 'media', 'value': 67}]}
+httpMIddleware-post {'keyword': '', 'page': '1'}
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /robots.txt
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /api/v2/
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /*
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /NZlH
+httpMIddleware-get <QueryDict: {}>
+Not Found: /BtXO
+httpMIddleware-get <QueryDict: {}>
+Not Found: /aab8
+httpMIddleware-get <QueryDict: {}>
+Not Found: /aab9
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {'format': ['json']}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /nice ports,/Trinity.txt.bak
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+Not Found: /*
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /../../mnt/mtd/Config/Account2
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /favicon.ico
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+httpMIddleware-get <QueryDict: {}>
+Not Found: /
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+clear session data base
+Some weights of the model checkpoint at ./art/art_assessment_model/bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+loadingg model performence {'design': {'acc': 0.6234, 'srcc': 0.3209, 'plcc': 0.3216, 'rmse': 0.1803, 'mae': 0.1433}, 'technology': {'acc': 0.702, 'srcc': 0.4609, 'plcc': 0.4333, 'rmse': 0.1684, 'mae': 0.1306}, 'market': {'acc': 0.7145, 'srcc': 0.5434, 'plcc': 0.518, 'rmse': 0.1619, 'mae': 0.1278}, 'investment': {'acc': 0.7199, 'srcc': 0.4094, 'plcc': 0.4037, 'rmse': 0.2018, 'mae': 0.1597}, 'media': {'acc': 0.7757, 'srcc': 0.3004, 'plcc': 0.3412, 'rmse': 0.1666, 'mae': 0.131}}
+preLoadAllProduct
+[2023-07-08 15:33:53 +0800] [3184551] [INFO] Handling signal: term
+[2023-07-08 15:34:23 +0800] [3184551] [INFO] Shutting down: Master

@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 from django.forms.models import model_to_dict
-from art.models import Product, Photo, Rating
+from art.models import Product, Photo, Rating, Prediction
 from django.db import transaction
 import json
 from PIL import Image
@@ -146,6 +146,8 @@ def addRatingRecord(request):
     
   return JsonResponse({'ref':0, 'data':{}, 'msg':'评价添加成功'})
 
+
+
 def modifyRatingRecord(request):
   
   EditRating = request.params['EditRating']
@@ -255,6 +257,36 @@ def artReview(request):
   
   return JsonResponse({'ref':-1, 'msg':'产品不存在'})
 
+
+def addPredictionRecord(product, PredictArtScoreArr):
+    
+  product_id = product.id
+  
+  rating_dict = {}
+  for ArtScore in PredictArtScoreArr:
+    rating_dict[ArtScore['name']] = ArtScore['value']
+  
+  if Prediction.objects.filter(product__id = product_id).exists():
+    rating = Prediction.objects.filter(product__id = product_id)[0]
+    rating.design = rating_dict['design']
+    rating.investment = rating_dict['investment']
+    rating.market = rating_dict['market']
+    rating.media = rating_dict['media']
+    rating.technology = rating_dict['technology']
+  
+  else: 
+    rating = Prediction.objects.create(
+      product = product,
+      market = rating_dict['market'],
+      design = rating_dict['design'],
+      technology = rating_dict['technology'],
+      media = rating_dict['media'],
+      investment = rating_dict['investment'],
+    )
+  
+  rating.save()
+    
+    
 def artPrediction(request):
   
   product_id = int(request.params['product_id']) if 'product_id' in request.params else -1
@@ -285,6 +317,9 @@ def artPrediction(request):
     # PredictArtScoreArr = scoring(images, product.description)   
     PredictArtScoreArr = scoring([images[0]], product.description)
     
+    addPredictionRecord(product, PredictArtScoreArr)
+    
+    
     data = {'product': model_to_dict(product), 'PredictArtScoreArr':PredictArtScoreArr, 'imgCoverList':imgCoverList, 'imgSrcList':imgSrcList, 'avgRating':avgRating}
     return JsonResponse({'ref':0, 'data':data})
   
@@ -293,15 +328,18 @@ def artPrediction(request):
   
 def exportArtAnnotation(requests):
   
-  dataList = []
+  labelList = []
+  prediclist = []
   products = Product.objects.all()
   for product in products:
     avgRating_dict = Rating.objects.filter(product_id=product.id).aggregate(
       Avg('design'), Avg('technology'), Avg('market'), Avg('investment'), Avg('media')
     )
+    prediction = Prediction.objects.filter(product_id=product.id)[0]
+    
     photos = list(Photo.objects.filter(product_id=product.id).values('path'))
     
-    dataList.append({
+    labelList.append({
       'id':product.id,
       'title':product.title,
       'author':product.author_name,
@@ -313,9 +351,15 @@ def exportArtAnnotation(requests):
       'market':avgRating_dict['market__avg'],
       'investment':avgRating_dict['investment__avg'],
       'media':avgRating_dict['media__avg'],
-      'photos':photos,})
+      'pdesign':prediction.design,
+      'ptechnology':prediction.technology,
+      'pmarket':prediction.market,
+      'pinvestment':prediction.investment,
+      'pmedia':prediction.media,
+      'photos':photos})
     
-  df = pd.DataFrame(dataList)
+    
+  df = pd.DataFrame(labelList)
   df.to_csv('label.csv') 
   
   return JsonResponse({'ref':0, 'msg':'导出成功'})

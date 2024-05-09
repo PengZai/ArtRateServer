@@ -43,6 +43,7 @@ def signup(request):
       username=user_info['username'],
       password=user_info['password'],
       email=user_info['email'],
+      is_staff = True,
     )
     
     user.save()

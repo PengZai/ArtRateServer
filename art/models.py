@@ -130,3 +130,15 @@ class Rating(models.Model):
 
     
 
+class Prediction(models.Model):
+  id = models.BigAutoField(primary_key=True)
+  product = models.ForeignKey(Product, on_delete=models.CASCADE)
+  
+  market = models.FloatField(verbose_name='市场', help_text='市场', null=True)
+  design = models.FloatField(verbose_name='设计', help_text='设计', null=True)
+  technology = models.FloatField(verbose_name='技术', help_text='技术', null=True)
+  media = models.FloatField(verbose_name='媒体', help_text='媒体', null=True)
+  investment = models.FloatField(verbose_name='投资', help_text='投资', null=True)
+  create_at = models.DateTimeField(auto_now_add=True, verbose_name='创建时间', help_text='创建时间', null=True)
+
+
