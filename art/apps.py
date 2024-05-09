@@ -20,7 +20,7 @@ class ArtConfig(AppConfig):
 class ArgConfig(object):
     def __init__(self):
         self.bert_model_name = './art/art_assessment_model/bert-base-uncased'
-        self.trained_model_path = './art/art_assessment_model/best_model.pth'
+        self.trained_model_path = './art/art_assessment_model/swim_bert_e2.pth'
         self.imgSize = 224
         self.max_token_len = 256
         
@@ -40,9 +40,6 @@ transform = transforms.Compose([
 if os.path.exists(args.trained_model_path):
     data = torch.load(args.trained_model_path, map_location=device)
     torch.set_rng_state(data['torch_rng_state'].cpu())
-    torch.cuda.set_rng_state(data['cuda_rng_state'].cpu())
-    np.random.set_state(data['numpy_rng_state'])
-    random.setstate(data['random_rng_state'])
     art_net.load_state_dict(data['state_dict'], strict=False)
     print(f'loadingg model performence {data["result_dict"]}')
 else:

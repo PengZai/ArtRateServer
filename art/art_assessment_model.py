@@ -2,72 +2,69 @@ import torch
 import torch.nn.functional as F
 import torchvision.models as models
 import torch.nn as nn
-from transformers import BertTokenizerFast as  BertTokenizer, BertModel
+from transformers import BertTokenizerFast as BertTokenizer, BertModel, AdamW, get_linear_schedule_with_warmup, AutoImageProcessor, SwinModel, Swinv2Model
 
-
-
-class MultimodalHead(nn.Module):
-    def __init__(self):
-        super(MultimodalHead, self).__init__()
-
-        self.head = nn.Sequential(
-            nn.Linear(1536, 5),
-        )
-
-    def forward(self, visual_feat, language_feat):
-
-        output = self.head(torch.cat((visual_feat, language_feat), dim = -1))
-
-        return output
-      
-class BERT(nn.Module):
-    def __init__(self, args):
-        super(BERT, self).__init__()
-
-        self.bert = BertModel.from_pretrained(args.bert_model_name, return_dict=True)
-        
-
-    def forward(self, input_ids, attention_mask):
-
-        bert_output = self.bert(input_ids, attention_mask=attention_mask)
-        output = bert_output.pooler_output
-
-        return output
-
-class ResNet18(nn.Module):
-    def __init__(self, args):
-        super(ResNet18, self).__init__()
-
-        self.backbone = models.resnet18(pretrained=True)
-
-        self.backbone.fc = nn.Sequential(
-            nn.Linear(512, 768),
-            nn.LeakyReLU(0.2),
-            
-        )
-
-    def forward(self, imgs):
-
-        preds = self.backbone(imgs)
-        
-
-        return preds
 
 
 class ArtNet(nn.Module):
     def __init__(self, args):
-        super(ArtNet, self).__init__()
+      super().__init__()
+      self.args = args
 
-        self.language_model = BERT(args)
-        self.visual_model = ResNet18(args)
-        self.head = MultimodalHead()
+      self.visual_net = VisualNet(args)
+      for param in self.visual_net.parameters():
+        param.requires_grad = False
+        
+      self.text_net = TextNet(args)
+      for param in self.text_net.parameters():
+        param.requires_grad = False
+      
+      self.fc1 = nn.Linear(49*768+256*768, 512)
+      self.fc2 = nn.Linear(512, 5)
+      # self.fc1 = nn.Linear(49*768+256*768, 5)
+      
+      self.flatten_layer = nn.Flatten()
+        
+    def forward(self, images, input_ids, attention_mask):
+      
+      visual_feat = self.visual_net(images).last_hidden_state
+      text_feat = self.text_net(input_ids, attention_mask).last_hidden_state
+      mix_feat = torch.cat([visual_feat, text_feat], axis=1)
+      mix_feat = self.flatten_layer(mix_feat)
+      
+      # preds = torch.sigmoid(self.fc1(mix_feat))
+      mix_feat = F.leaky_relu(self.fc1(mix_feat))
+      preds = torch.sigmoid(self.fc2(mix_feat))
+      
+      return preds
 
-    def forward(self, imgs, input_ids, attention_mask):
+class VisualNet(nn.Module):
+    def __init__(self, args):
+      super().__init__()
+      self.args = args
 
-        visual_feat = self.visual_model(imgs)
-        language_feat = self.language_model(input_ids, attention_mask)
-        output = self.head(visual_feat, language_feat)
+      # self.swim = SwinModel.from_pretrained(os.path.join(args.huggingface_model_root, 'models', 'microsoft','swin-tiny-patch4-window7-224'))
+      self.swim = SwinModel.from_pretrained('/var/www/html/ArtRate/ArtRate_server/art/art_assessment_model/microsoft/swin-tiny-patch4-window7-224')
+      # self.head = nn.Linear(self.bert.config.hidden_size, n_classess)
+        
+    def forward(self, x):
+      
+      feat = self.swim(x)
+      
+      return feat
 
-        return output
+
+class TextNet(nn.Module):
+    def __init__(self, args):
+      super().__init__()
+      self.args = args
+
+      self.bert = BertModel.from_pretrained(args.bert_model_name, return_dict=True)
+      # self.head = nn.Linear(self.bert.config.hidden_size, n_classess)
+        
+    def forward(self, input_ids, attention_mask):
+      
+      feat = self.bert(input_ids, attention_mask=attention_mask)
+      return feat
       
       
