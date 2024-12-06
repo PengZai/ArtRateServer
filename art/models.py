@@ -81,7 +81,10 @@ def make_thumb(path,size=256):  #指定size，在这里表示图片的高度
         delta = height / size
         width = int(width / delta)
         pixbuf.thumbnail((width, height), Image.ANTIALIAS)
-        return pixbuf
+        
+    return pixbuf
+      
+   
 
 
 

@@ -20,7 +20,7 @@ workers = 2
 # command
 # gunicorn -c gunicorn_conf.py ArtRate_server.wsgi
 # nohup gunicorn -c gunicorn_conf.py ArtRate_server.wsgi &> /dev/null &
-# nohup bash run.sh > log.txt 2>&1 &
+# nohup bash run.sh > log.log 2>&1 &
 
 
 # 查看是否成功启动
